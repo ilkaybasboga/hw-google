@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+     display: flex;
+     justify-content: space-between;
+     color: black;
+    margin-top: 1rem;
+    opacity: 0.8;
+
+    
+}
+.right {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    
+
+}
+.left {
+     margin-top: 0.5rem;
+}
+.right a {
+    text-decoration: none;
+    color: black;
+    margin: 0.9rem;
+    
+}
+
+.left  a {
+    text-decoration: none;
+    color: black;
+    margin: 0.5rem;
+    
+}
+.btn {
+    margin: 0.5rem;
+    border: 1px solid rgb(66,133, 244);
+    background-color: rgb(66,133, 244);
+    color: white;
+    padding: 0.3rem;
+    width: 4rem;
+    border-radius: 0.2rem;
+}
+.pic-google {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    margin-top: 10rem;
+}
+.input-search input {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    /* align-items:center; */
+    margin-top: 1rem;
+    /* text-align: center; */
+    border: 1px solid rgb(205, 199, 199);    
+    border-radius: 3rem;
+    width: 35%;
+    padding: 0.9rem;
+}
+.input-search {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.search {
+    height: 2.5rem;
+    display: flex;
+    /* flex-direction: column; */
+ position: absolute;
+ margin-top: 1.2rem;
+ margin-left:-27rem ;
+    
+}
+.mic {
+    height: 1.8rem;
+    display: flex;
+    /* flex-direction: column; */
+ position: absolute;
+ margin-top: 1.4rem;
+ margin-left:29rem ;
+}
+
+section.main-2 { 
+    width: fit-content;
+    margin: auto;
+    margin-top: 2rem;
+
+}
+.btn-2 input {
+    padding: 0.8rem;
+    border: 1px solid rgb(239, 239, 239);
+    border-radius: 0.2rem;
+    margin-bottom: 1rem;
+    width: 49%;
+    opacity: 0.8;
+}
